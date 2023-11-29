@@ -1,0 +1,76 @@
+                    <div style="width: 830px;"><a class="weatherwidget-io" href="https://forecast7.com/en/44d99n93d57/long-lake/?unit=us" data-label_1="LONG LAKE" data-label_2="WEATHER" data-theme="original" >LONG LAKE WEATHER</a>
+                    <script>
+                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                    </script></div><br>
+                    <div style="width: 830px;"><a class="weatherwidget-io" href="https://forecast7.com/en/44d97n93d60/orono/?unit=us" data-label_1="ORONO" data-label_2="WEATHER" data-theme="original" >ORONO WEATHER</a>
+                    <script>
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                    </script></div><br>
+                    <div style="width: 830px;"><a class="weatherwidget-io" href="https://forecast7.com/en/28d54n81d38/orlando/?unit=us" data-label_1="ORLANDO" data-label_2="WEATHER" data-theme="original" >ORLANDO WEATHER</a>
+                    <script>
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                    </script></div><br>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="mySlides">
+        <!--
+            <a href="https://www.accuweather.com/en/us/minneapolis-mn/55415/current-weather/348794" class="aw-widget-legal">
+            -->
+            <table border="0" cellpadding="0" style="height:100%;width:100%;border-spacing:0;position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
+                <tr><td>
+                    <div style="width: 650px;"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=72771" width="650" height="92" frameborder="0" scrolling="no"></iframe><a style="height: 92px;z-index: 1;text-indent: -9999em;margin: -92px 0 0 0;float: right;width: 20px;position: relative" href="http://www.willyweather.com/mn/hennepin-county/carman-bay.html" rel="nofollow">carman bay weather forecast</a></div>
+                    <br>
+                    <div style="width: 650px;"><a class="weatherwidget-io" href="https://forecast7.com/en/44d99n93d57/long-lake/?unit=us" data-label_1="LONG LAKE" data-label_2="WEATHER" data-theme="original" >LONG LAKE WEATHER</a>
+                    <script>
+                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                    </script></div><br>
+                    <div style="width: 650px;"><iframe style="display: block;" src="https://cdnres.willyweather.com/widget/loadView.html?id=72774" width="650" height="92" frameborder="0" scrolling="no"></iframe><a style="text-indent: -9999em;z-index: 1;width: 20px;margin: -92px 0 0 0;position: relative;float: right;height: 92px" href="http://www.willyweather.com/mn/hennepin-county/minneapolis.html" rel="nofollow">Up to date weather for Minneapolis</a></div>
+                </td></tr>
+                <tr><td align="center" valign="middle">
+                    <img src="page2ftr.jpg" height="680" width="1024">
+                </td></tr></table>
+                
+                <!--
+                    By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
+                    
+                </a><div id="awtd1499387918052" class="aw-widget-36hour"  data-locationkey="348794" data-unit="f" data-language="en-us" data-useip="false" data-uid="awtd1499387918052" data-editlocation="false"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>  </div>
+            -->
+            <!--
+                <div class="mySlides">
+                    <!-- <iframe align="top" src="http://docs.google.com/gview?url=http://rfkmartin.ga/cal/ruach.pdf&embedded=true" style="width:800px; height:600px;" frameborder="0"></iframe> -->
+                </div>
+                <!--  <div class="mySlides">
+                    <table bgcolor="#880305" style="height:100%;width:100%;position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
+                        <tr style="height: 25%; font-size: 180px;">
+                            <td>Region</td>
+                        </tr>
+                        <tr style="height: 75%; font-size: 280px;">
+                            <td>100.00%</td>
+                        </tr>
+                    </table>
+                -->
+            </div>
+            
+            <script>
+                var slideIndex = 0;
+                carousel();
+                
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > x.length) {slideIndex = 1}
+                    x[slideIndex-1].style.display = "block";
+                    setTimeout(carousel, 10000);
+                }
+            </script>
+            
+        </body>
+        </html>
+        
